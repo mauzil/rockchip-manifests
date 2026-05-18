@@ -2,7 +2,7 @@
 <manifest>
   <include name="include/firefly.xml" />
   <default remote="firefly-linux-utils" dest-branch="rk3399pro/firefly" revision="refs/tags/rk3399pro/linux_release_v1.4.2e"/>
-  <project name="device-rockchip" path="device/rockchip" remote="firefly-linux-bsp">
+  <project name="device/rockchip" path="device-rockchip" remote="firefly-linux-bsp">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
